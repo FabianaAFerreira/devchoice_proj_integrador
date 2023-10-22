@@ -1,0 +1,95 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+   
+body {
+    background-color: rgb(113, 15, 169);
+}
+
+header{
+
+    background-color: rgb(250, 248, 244);
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+.Links_nav{
+
+    background-color: rgb(250, 248, 244);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+   } 
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    
+}   
+
+main {
+    background-color: rgb(250, 248, 244);
+
+}
+   
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.legenda{
+    position: absolute;
+    padding-top: 50px;
+    color: rgb(250, 248, 244);
+ }
+
+.primeiro_paragrafo{
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.cor_de_fundo_footer{
+    background-color: rgb(245, 164, 13);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.container-adalberto{
+    background-color: rgb(250, 248, 244);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.container-babbi{
+    background-color: rgb(250, 248, 244);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-fabiana{
+    background-color: rgb(250, 248, 244);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
