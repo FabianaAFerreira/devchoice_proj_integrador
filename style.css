@@ -3,14 +3,9 @@
     margin: 0;
     padding: 0;
 }
-   
-body {
-    background-color: rgb(113, 15, 169);
-}
 
 header{
-
-    background-color: rgb(250, 248, 244);
+    background-color:whitesmoke;
     display: flex;
     justify-content:space-between;
     padding: 5px;
@@ -18,10 +13,6 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
-.Links_nav{
-
-    background-color: rgb(250, 248, 244);
-}
 
 ul{
     display: flex;
@@ -30,19 +21,19 @@ ul{
    } 
 
 nav ul li {
+    color: rgb(4, 4, 57);
     list-style-type: none;
     margin-left: 20px;
-    
-}   
+    }   
 
-main {
-    background-color: rgb(250, 248, 244);
-
+.cor_de_fundo_main{
+    background-color: rgb(110, 9, 204);
+    padding-top: 5px;
 }
-   
+
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around
 }
 
 .legenda{
@@ -51,12 +42,44 @@ main {
     color: rgb(250, 248, 244);
  }
 
-.primeiro_paragrafo{
-    padding-top: 16px;
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
+.section_div_desenvolvedores{
+    margin: 2px;
+ }
 
+div{
+ margin: 20px;
+padding: 10px; 
+}
+
+.div_blocos_adalberto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_blocos_babbi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div_blocos_fabiana{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+
+.formulario{
+    background-color: blueviolet;
+    
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .cor_de_fundo_footer{
@@ -65,31 +88,4 @@ main {
     justify-content: space-between;
     padding-top: 25px;
     margin: 0 auto;
-}
-
-.container-adalberto{
-    background-color: rgb(250, 248, 244);
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 22px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-.container-babbi{
-    background-color: rgb(250, 248, 244);
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 22px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.container-fabiana{
-    background-color: rgb(250, 248, 244);
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 22px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
