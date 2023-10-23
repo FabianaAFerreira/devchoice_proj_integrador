@@ -71,21 +71,20 @@ padding: 10px;
  
 }
 
-
-.formulario{
-    background-color: blueviolet;
-    
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 22px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.cor_de_fundo_footer{
-    background-color: rgb(245, 164, 13);
+.div_formulario{
     display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(174, 166, 166);
+    margin: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
+ 
+.plano_de_fundo{
+    background-image:url(/img/planofundo.png)
+ 
+}
+
