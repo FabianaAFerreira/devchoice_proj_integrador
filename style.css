@@ -13,6 +13,10 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
+.logoDev{
+    border-radius: 10px;
+}
+
 
 ul{
     display: flex;
@@ -22,7 +26,7 @@ ul{
 
 nav ul li {
     color: rgb(4, 4, 57);
-    list-style-type: none;
+    list-style: none;
     margin-left: 20px;
     }   
 
@@ -55,12 +59,14 @@ padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 15px;
 }
 
 .div_blocos_babbi{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 15px;
 
 }
 
@@ -68,19 +74,31 @@ padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 15px;
  
 }
+
+.portifolio-fabiana{
+    display: flex;
+    background-image: url(/img/imagem12.jpg);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+
+}
+    
 
 .div_formulario{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(174, 166, 166);
-    margin: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 25px;
-    padding-right: 25px;
+    align-items: stretch;
+    background-color: blueviolet;
+    justify-content: center;
+    width: 250px;
+    height: 190px;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
  
 .plano_de_fundo{
